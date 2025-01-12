@@ -1,0 +1,26 @@
+{
+  "name": "mengelola-data-produk",
+  "version": "1.0.0",
+  "description": "Buat REST API sederhana dengan Node.js dan MongoDB untuk mengelola data produk.\r 1. Endpoint yang diminta:\r   a. GET /products: Mengambil daftar semua produk.\r   b. POST /products: Menambahkan produk baru (dengan validasi nama dan harga).\r   c. PUT /products/:id: Mengupdate data produk berdasarkan ID.\r   d. DELETE /products/:id: Menghapus produk berdasarkan ID.\r 2. Spesifikasi:\r   a. Database: Gunakan MongoDB.\r   b. Framework: Gunakan Express.js.\r   c. Validasi: Gunakan library seperti Joi untuk validasi input.\r   d. Dokumentasi: Sertakan dokumentasi API sederhana dengan contoh request dan \r   response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
